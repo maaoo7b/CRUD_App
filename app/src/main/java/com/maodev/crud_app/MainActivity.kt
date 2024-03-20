@@ -8,7 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.maodev.crud_app.screens.landingPage.LandingPageScreen
+import com.maodev.crud_app.screens.formPage.FormScreen
 import com.maodev.crud_app.ui.theme.CRUD_AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,5 +29,6 @@ class MainActivity : ComponentActivity() {
 }
 @Composable
 fun CRUDApp() {
-LandingPageScreen()
+//LandingPageScreen()
+    FormScreen()
 }
